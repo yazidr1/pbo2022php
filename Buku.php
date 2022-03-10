@@ -2,15 +2,15 @@
 class Buku{
     // var
     public $penulis;
-    public $ISBN;
+    public $isbn;
     public $judul;
 
     // method
-    public function pinjamBuku($noAnggota, $namaAnggota, $noHP, $penulis, $judul)
+    public function pinjamBuku($no_anggota, $nama_anggota, $no_hp, $penulis, $judul)
     {
         // setNoAnggota, setNamaAnggota, setNoHP, setPenulisBuku, setJudul(masih belum tau memanggil fungsi di luar file)
         // 
-        echo $noAnggota."<br>".$namaAnggota."<br>".$noHP."<br>".$penulis."<br>".$judul;
+        echo $no_anggota."<br>".$nama_anggota."<br>".$no_hp."<br>".$penulis."<br>".$judul;
     }
 
     public function setPenulisBuku($namaPenulis)
@@ -23,14 +23,14 @@ class Buku{
         return $this->penulis;
     }
 
-    public function setISBN($noISBN)
+    public function setISBN($noIsbn)
     {
-        $this->ISBN= $noISBN;
+        $this->isbn= $noIsbn;
     }
 
     public function getISBN()
     {
-        return $this->ISBN;
+        return $this->isbn;
     }
 
     public function setJudul($namaJudul)
