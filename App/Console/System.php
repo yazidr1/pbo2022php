@@ -1,7 +1,7 @@
 <?php 
 namespace App\Console;
 
-class System
+final class System
 {
     private function reset(): void
     {

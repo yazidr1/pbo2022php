@@ -1,5 +1,6 @@
 <?php 
 namespace App\Model;
+use App\Model\Aset;
 
 class Buku extends Aset
 {

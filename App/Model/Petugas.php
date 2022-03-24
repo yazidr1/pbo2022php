@@ -7,6 +7,9 @@ class Petugas extends User
     public $nip; //int
     public $nama_lengkap; //str
     public $alamat; //str
+    
+    const AKTIF= 1;
+    const NONAKTIF= 0;
 
     public function lihatProfil() //output array
     {
@@ -16,7 +19,11 @@ class Petugas extends User
     {
         echo "Login petugas sedang dibatasi";
     }
-    
-}
 
+    public static function presensi()
+    {
+        echo "presensi tidak berhasil berhasil \n";
+        echo self::NONAKTIF;
+    }
+}
 ?>
