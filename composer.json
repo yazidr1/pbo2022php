@@ -3,9 +3,9 @@
         "psr-4":{
             "App\\": "App",
             "Core\\": "Core",
-            "Console\\": "App/Console",
-            "Controller\\": "App/Http/Controller",
-            "Model\\": "App/Model"
+            "App\\Console\\": "App/Console",
+            "App\\Http\\Controller\\": "App/Http/Controller",
+            "App\\Model\\": "App/Model"
         }
     }
 }

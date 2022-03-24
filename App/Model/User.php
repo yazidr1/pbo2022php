@@ -1,6 +1,5 @@
 <?php 
 namespace App\Model;
-
 use Core\Model;
 
 class User extends Model
@@ -15,9 +14,9 @@ class User extends Model
     public $email; //str
 
     // METHODS
-    public function login(): void
+    public function login()
     {
-        # code...
+        echo "login berhasil";
     }
 
     public function register(): void

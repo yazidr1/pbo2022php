@@ -1,5 +1,6 @@
 <?php 
 namespace App\Model;
+use App\Model\User;
 
 class Petugas extends User
 {
@@ -9,8 +10,11 @@ class Petugas extends User
 
     public function lihatProfil() //output array
     {
-        # code...
-        
+        # code...   
+    }
+    public function login()
+    {
+        echo "Login petugas sedang dibatasi";
     }
     
 }
