@@ -1,14 +1,9 @@
 <?php 
 namespace Core;
 
-abstract class Minuman
+interface Minuman
 {
-    private $rasa;
-
-    abstract public function minum();
-    public function setRasa($rasa)
-    {
-        $this->rasa= $rasa;
-    }
+    public function setRasa($rasa);
+    public function minum();
 }
 
